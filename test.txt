@@ -1,1 +1,1 @@
-Environment = PREPROD
+Environment = preprod

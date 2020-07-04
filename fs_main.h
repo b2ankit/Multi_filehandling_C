@@ -7,4 +7,7 @@ void mul_fs_fwrite(FILE *filePointer,char *fsPath, char *fsData);
 void mul_fs_fread(FILE *filePointer,char *fsPath,char * dataToread,int sizeofdata);
 void mul_fs_fclose(FILE *filePointer);
 
+int fs_file_write_operation(FILE *filepointer,char * fsPath,char *dataTowrite);
+int fs_file_read_operation(FILE *filePointer,char *fsPath,int offset,int whence,char *dataToread,int sizeofdataread);
+
 #endif
